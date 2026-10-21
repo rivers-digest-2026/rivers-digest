@@ -1,0 +1,746 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html>
+<html lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Rivers 学校日报 🌈</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+background:#FFF7EC;background-image:radial-gradient(#FFE3C2 2.2px,transparent 2.3px),radial-gradient(#DFF5E1 2.2px,transparent 2.3px);
+background-size:44px 44px;background-position:0 0,22px 22px;color:#5A4A3A;line-height:1.75}
+.wrap{max-width:760px;margin:0 auto;padding:18px 16px 60px}
+.hero{text-align:center;padding:30px 18px 22px;background:linear-gradient(135deg,#FFD9A0,#FFB3A7);
+border-radius:28px;margin-bottom:16px;box-shadow:0 6px 18px rgba(255,150,120,.25)}
+.hero h1{font-size:30px;color:#fff;text-shadow:0 2px 6px rgba(180,90,60,.35);letter-spacing:2px}
+.hero p{color:#fff;font-size:15px;margin-top:6px;text-shadow:0 1px 4px rgba(180,90,60,.3)}
+.nav{position:sticky;top:0;z-index:10;background:rgba(255,247,236,.96);padding:10px 4px;
+display:flex;gap:8px;overflow-x:auto;border-radius:16px;margin-bottom:18px;box-shadow:0 2px 8px rgba(200,150,100,.15)}
+.nav a{flex:0 0 auto;text-decoration:none;font-size:13px;color:#fff;background:#7FD8BE;
+padding:7px 13px;border-radius:999px;font-weight:700;white-space:nowrap}
+.nav a:nth-child(3n+2){background:#FF9E9E}.nav a:nth-child(3n){background:#FFC93C;color:#7A5B00}
+.day{background:#fff;border-radius:24px;padding:20px 18px;margin-bottom:22px;
+box-shadow:0 4px 14px rgba(200,150,100,.12);border:3px solid #FFE3C2}
+.day>h2{font-size:21px;color:#FF7B6B;margin-bottom:14px}
+.post{background:#FFFDF8;border:2px dashed #FFD9A0;border-radius:18px;padding:14px;margin-bottom:14px}
+.post h3{font-size:16px;color:#4FB89B;margin-bottom:8px}
+.post p{font-size:15px;margin-bottom:10px;white-space:pre-wrap}
+.post ul{margin:0 0 10px 22px;font-size:15px}
+.photos{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:6px}
+.photos img{width:100%;aspect-ratio:1;object-fit:cover;border-radius:12px;background:#f4efe6}
+.note{font-size:13px;color:#B09A7E}
+.section{background:#fff;border-radius:24px;padding:20px 18px;margin-bottom:22px;
+box-shadow:0 4px 14px rgba(200,150,100,.12);border:3px solid #DFF5E1}
+.section h2{font-size:20px;color:#4FB89B;margin-bottom:12px;text-align:center}
+.btns{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+.btns a{text-decoration:none;color:#fff;font-weight:700;padding:10px 20px;border-radius:999px;font-size:15px}
+.d-blue{background:#6BA8FF}.d-gold{background:#FFC93C;color:#7A5B00}.d-silver{background:#A9B4C4}.d-red{background:#FF7B6B}
+.read a{display:block;text-decoration:none;color:#5A4A3A;background:#FFF7EC;border:2px solid #FFE3C2;
+border-radius:14px;padding:10px 14px;margin-bottom:8px;font-size:15px}
+.read a:hover{background:#FFEDD5}
+footer{text-align:center;font-size:12px;color:#C9B79E;margin-top:26px}
+</style>
+</head>
+<body>
+<div class="wrap">
+<div class="hero"><h1>🌈 Rivers 学校日报 🌈</h1><p>老师动态 · 逐句完整中文翻译 · 34 天</p></div>
+<div class="nav"><a href="#d-2026-09-28">09/28</a><a href="#d-2026-09-24">09/24</a><a href="#d-2026-09-23">09/23</a><a href="#d-2026-09-22">09/22</a><a href="#d-2026-09-21">09/21</a><a href="#d-2026-09-20">09/20</a><a href="#d-2026-09-19">09/19</a><a href="#d-2026-09-18">09/18</a><a href="#d-2026-09-17">09/17</a><a href="#d-2026-09-16">09/16</a><a href="#d-2026-09-15">09/15</a><a href="#d-2026-09-14">09/14</a><a href="#d-2026-09-11">09/11</a><a href="#d-2026-09-10">09/10</a><a href="#d-2026-09-09">09/09</a><a href="#d-2026-09-08">09/08</a><a href="#d-2026-09-05">09/05</a><a href="#d-2026-09-04">09/04</a><a href="#d-2026-09-25">09/25</a><a href="#d-2026-09-29">09/29</a><a href="#d-2026-09-30">09/30</a><a href="#d-2026-10-01">10/01</a><a href="#d-2026-10-02">10/02</a><a href="#d-2026-10-05">10/05</a><a href="#d-2026-10-06">10/06</a><a href="#d-2026-10-07">10/07</a><a href="#d-2026-10-08">10/08</a><a href="#d-2026-10-09">10/09</a><a href="#d-2026-10-13">10/13</a><a href="#d-2026-10-14">10/14</a><a href="#d-2026-10-15">10/15</a><a href="#d-2026-10-16">10/16</a><a href="#d-2026-10-19">10/19</a><a href="#d-2026-10-20">10/20</a></div>
+<section class="day" id="d-2026-09-28"><h2>📅 2026-09-28（周一）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:28）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0928_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_10.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_11.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_12.jpg" alt="" /><img loading="lazy" src="photos/0928_foch_13.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（15:57）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>今天早上是完美的特里·福克斯跑（Terry Fox Run）时间，JK 们表现得非常棒。感谢所有能抽空来陪孩子一起跑的家长们。太有趣了，看到整个社区团结起来支持这样伟大的公益事业，真是太美好了。🏃🏃‍♀️</p>
+<p>今天我们推出了&quot;每日领袖&quot;（Daily Leader）这个新角色！我们聊了&quot;每日领袖&quot;是一位特别的小帮手，协助老师完成各种课堂事务，还通过认真倾听、遵守我们的日常规则来给小朋友们做榜样。他们还可以当排头，在分享圈时间坐在特别的绿色蘑菇椅上。</p>
+<p>我们用一个识字活动来探索我们&quot;每日领袖&quot;的名字，玩得很开心。我们数了他/她名字里的音节和字母，还把字母打乱重组。今天的每日领袖是 Anoosheh——她的名字有 8 个字母！🌟</p>
+<p>今天下午，JK 们开心地探索了一些新的学习区（Learning Spaces）！他们在我们的医院里当起了医生，他们决定第一个病人就是特里·福克斯！他们立刻动手给他的腿治伤。🏥🥼</p>
+<p>我们还探索了一个装满散件材料的探索托盘（tuff tray），用它们来表达我们身体里面可能有什么；参观了小世界区（Small World）的颜色怪兽小屋（Colour Monster&#x27;s House）；还做了特里·福克斯主题手工。看到 JK 们把这些和我们的探究课题联系起来，真是太棒了。</p>
+<p>请查看我今天早些时候发的帖子，内容是关于 Aurora Speech Clinic 将在本校直接开设的语言治疗课程。💬</p>
+<p>本周着装及日程须知：
+周二
+正式校服
+· 🌟 每日领袖：Florence
+周三
+橙色衬衫日——请孩子们穿橙色上衣配体育裤，纪念全国真相与和解日。🧡
+· 🚜 去 Blue and Silver 农场春游：我们很期待和 SK 班一起第一次去 Blue and Silver 农场。我们会探索这个空间、认识住在那里的鸡，还会和我们优秀的户外教育老师 Ms Amadori 一起做户外学习。
+· 🌟 每日领袖：Tara
+周四
+体育校服
+· 🤸‍♀️🤸‍♂️ 体操课第 2 节，在 Gymalaya
+· 🌟 每日领袖：Ava
+周五
+正式校服
+· 🌟 每日领袖：Rivers</p>
+<p>希望今天早上跑了这么久之后，今晚您能好好休息！🌙</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 3｜作者：Mrs. Ellis Adami（13:32）全文翻译</h3><p>💬语言治疗信息💬</p>
+<p>我们很自豪能与 Aurora Speech Clinic 在 Pickering College 合作。</p>
+<p>本帖附了两份传单（PDF）。第一份是关于即将在学校本校开设的语言治疗课程的详细信息。第二份是&quot;语音发展时间线&quot;（Speech Sound Development Timeline），提供了孩子在不同年龄段通常会发展出的发音的一般信息，是思考孩子语言发展时的好帮手。</p>
+<p>如果您希望给孩子做语言治疗评估，或想给孩子报名语言治疗课程，请直接联系 Aurora Speech Clinic，邮箱：info@auroraspeechclinic.ca，电话：905-503-4321。</p>
+<p>Aurora Speech Clinic 会负责所有的报名和评估，并解答您关于他们服务的任何问题。</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-24"><h2>📅 2026-09-24（周四）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:24）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0924_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_10.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_11.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_12.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_13.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_14.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_15.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_16.jpg" alt="" /><img loading="lazy" src="photos/0924_foch_17.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（15:54）全文翻译</h3><p>亲爱的 JK 家长们，
+今天是多彩的一天 🌈——我们读了一个故事，认识了颜色怪兽（Colour Monster）！颜色怪兽需要我们帮忙识别和说出它的感受。读故事的时候，我们聊到了不同颜色代表的不同感受，比如黄色代表开心，红色代表愤怒，蓝色代表难过。在学习区（Learning Spaces）时间里，JK 们有机会画下自己专属的颜色怪兽。有的画了五彩缤纷、乱糟糟的怪兽，有的则选了一种颜色来代表一种感受。探索感受是我们正在进行的课题&quot;我们的身体，我们自己（Our Bodies, Ourselves）&quot;的一个美好补充，我们会继续好奇我们的身体，并学习身体和感受之间是如何关联的。❤️💚💙💛</p>
+<p>今天下午，JK 们上了第一节体操课！他们在课上平衡、弹跳、弯曲身体。他们是超级棒的小听众，在穿越各个训练站点时都尽了全力。之后我们围坐成分享圈，一些小朋友分享了他们最喜欢的体操环节。以下是他们说的：</p>
+<p>我最喜欢的体操环节是……
+· 蹦床 – Preston
+· 平衡木 – Jack
+· 蹦床和翻滚 – Jerry
+· 两张蹦床 – Tara
+· 蹦床 – Aiden
+· 蹦床 – Xiran
+· 翻滚 – Florence
+· 滑梯 – Hannah
+· 跳跃 – Anoosheh
+· 蹦床 – William
+· 锻炼 – Leonardo
+· 悬垂 – Roman
+· 跳跃 – Elsie</p>
+<p>🤸‍♀️🤸‍♂️🤸‍♀️🤸‍♂️🤸‍♀️🤸‍♂️🤸‍♀️🤸‍♂️🤸‍♀️🤸‍♂️</p>
+<p>周五
+便服日——免校服日 👕👖👗
+便服日：便服日是非校服日，JK 们可以穿任何自己喜欢的衣服，只要方便玩耍和学习。请不要穿戏服。</p>
+<p>🍿🍪🧁
+小卖部（Tuck Shop）</p>
+<p>祝您拥有一个安宁的夜晚。今晚家里可能会有几位非常疲惫的小体操运动员哦 🥱😴。</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-23"><h2>📅 2026-09-23（周三）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:18）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0923_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0923_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（15:49）全文翻译</h3><p>亲爱的 JK 家长们，
+今天，我们让 JK 们挑战完成自己的人体模板（Human Body template），画下他们认为我们身体里面有什么。孩子们分享自己的想法时，我们看到了很多精彩的思考、表达和好奇。我们将要探索的问题包括：
+· 我们的全身都装满了血吗？
+· 如果血是红色的，为什么我们胳膊上的血看起来是蓝色的？
+· 我们的骨头在哪里？我们的全身是不是只有一根巨大的骨头？
+· 我们的肚子里有什么？
+· 我们的脑子是软的还是硬的呢，因为我们的头是硬的？
+· 我们的全身都有肌肉吗？</p>
+<p>我们很期待在课题时间和学习区里继续追寻这些问题的答案。另外，我们的书架上有一整套关于人体的图书，供 JK 们翻看和探索。</p>
+<p>今天也是听力练习的大日子！我们开始了音素意识（phonemic awareness）时间，我们会玩听力游戏，帮 JK 们训练耳朵去分辨不同的声音，建立对单词中音素的意识。今天，我们玩了声音按钮，按下一个神秘按钮，猜我们听到了什么声音。我们还读了《The Listening Walk》（《聆听之旅》），然后自己到户外来了一场安静的聆听散步。JK 们兴奋地听到了风声、树叶的沙沙声、摇摆的树木、一扇关上的门、一辆拖拉机，甚至还有设施团队在倒垃圾和回收桶时发出的巨大&quot;砰！砰！&quot;声！</p>
+<p>聆听散步是培养孩子声音意识的绝佳方式，在家也能轻松一起尝试！在室内和室外都可以进行。</p>
+<p>本周穿衣和注意事项：
+请每天查看天气预报，给孩子穿适合户外玩耍和学习的衣服！</p>
+<p>周四
+体育校服
+🤸‍♀️🤸‍♂️ 第 1 节体操课，在 Gymalaya</p>
+<p>周五
+便服日——免校服日 👕👖👗
+便服日：便服日是非校服日，JK 们可以穿任何自己喜欢的衣服，只要方便玩耍和学习。请不要穿戏服。</p>
+<p>🍿🍪🧁
+小卖部（Tuck Shop）</p>
+<p>希望您度过一个放松的夜晚。我们期待 JK 们明天的第一节体操课！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-22"><h2>📅 2026-09-22（周二）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（18:12）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0922_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0922_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（16:40）全文翻译</h3><p>亲爱的 JK 家长们，
+今天 JK 们看了《Silly Billy》——一个关于一头稀有的白色水牛踏上寻找神奇独角兽之旅的舞蹈剧场故事。它有趣、好笑、还很互动——是小孩子的完美组合。</p>
+<p>今天我们开启了新的课题：&quot;我们的身体，我们自己（Our Bodies, Ourselves）&quot;，灵感来自孩子们关于 Terry fox 的问题和他们的自画像。我们描画了一位小朋友的身体轮廓，探索了我们身体外表能看到什么，以及我们觉得身体里面有什么。孩子们分享了他们对身体部位、骨骼、肌肉、大脑、心脏、血液、食物和呼吸的想法，我们还花时间去感受自己的心跳、留意自己的呼吸。我们很期待继续探索他们关于身体如何运作的问题和想法。</p>
+<p>温馨提醒：9 月 28 日（周一）上午 8:30，小学部将举办 Terry Fox 跑步活动。欢迎家长和孩子一起沿校园路线跑步，纪念 Terry 的精神，并为癌症研究筹款。</p>
+<p>如果您想捐款，并且是蓝舍（Blue House）成员，请点击这里。如果您想捐款，并且是金舍（Gold House）成员，请点击这里。如果您想捐款，并且是银舍（Silver House）成员，请点击这里。如果您想捐款，并且是红舍（Red House）成员，请点击这里。</p>
+<p>本周穿衣和注意事项：
+请每天查看天气预报，给孩子穿适合户外玩耍和学习的衣服！</p>
+<p>周三
+正式校服（First Dress Uniform）</p>
+<p>周四
+体育校服
+🤸‍♀️🤸‍♂️ 第 1 节体操课，在 Gymalaya</p>
+<p>周五
+便服日——免校服日 👕👖👗
+便服日：便服日是非校服日，JK 们可以穿任何自己喜欢的衣服，只要方便玩耍和学习。请不要穿戏服。</p>
+<p>🍿🍪🧁
+小卖部（Tuck Shop）</p>
+<p>希望您享受这个阳光明媚的周二夜晚！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>（帖子附带的链接预览卡片：）
+Pickering College Blue House —— &quot;1980 年，Terry Fox 告诉我们，一个人只要努力，就能带来巨大的改变。作为一个班级，我们也有机会做出改变，帮助延续 Terry 的马拉松……&quot; —— 来源：https://schools.terryfox.ca/135386/team/78627
+Pickering College Gold House —— 来源：https://schools.terryfox.ca/135386/team/78629
+Pickering College Silver House —— 来源：https://schools.terryfox.ca/135386/team/78628
+Pickering College Red House —— 来源：https://schools.terryfox.ca/135386/team/78626</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-21"><h2>📅 2026-09-21（周一）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:31，已编辑）全文翻译</h3><p>亲爱的 JK 家长们，
+今天早上停电，我们度过了一个多事的早晨！一如既往，孩子们展现了惊人的适应力和灵活性。电力恢复后，一切照常，JK 们又回到了学习、玩耍和探索中。</p>
+<p>学校拍照日快乐！JK 们在听从指令、摆姿势拍个人照和班级合影时表现得很棒。请记住，明天是全景学校合影日，孩子们应穿正式校服（First Dress Uniform）。</p>
+<p>今天我们很兴奋地在学习区引入了一些新活动！在厨房区，我们探索了大小不同的面条、大大小小的锅子，以及长短不一的勺子。我们还引入了一张新的乐高桌，JK 们可以在上面合作拼搭、创造。在沙桌，我们发现了藏在沙子下面的字母！</p>
+<p>JK 们惊讶地发现小狗 Peter 今天身体不太舒服，这引发了一场关于细菌的讨论。我们聊了聊有些细菌会让我们生病。我们读了一个叫《Germs are Not For Sharing》（《细菌不分享》）的故事，讲的是细菌如何通过打喷嚏、咳嗽、流鼻涕和没洗干净的手传播。然后我们复习了洗手的步骤，JK 们在一个学习区里开心地练习：用肥皂和水搓洗沾满&quot;细菌&quot;的乳胶手。</p>
+<p>今天下午，JK 们上了音乐课，他们非常兴奋地见到了大象 Ellie！在体育课上，JK 们探索了各种动物的动作，用身体模仿动物的样子移动。</p>
+<p>本周穿衣和注意事项：
+请每天查看天气预报，给孩子穿适合户外玩耍和学习的衣服！</p>
+<p>周二
+正式校服
+🎭《Silly Billy》剧场表演，在 RRHA（Robert Rourke Assembly Hall）
+📸👨‍👩‍👧‍👦 全景学校合影：我们将为小学部和中学部的所有学生、教职工拍摄一张全校大合影。</p>
+<p>周三
+正式校服</p>
+<p>周四
+体育校服
+🤸‍♀️🤸‍♂️ 第 1 节体操课，在 Gymalaya</p>
+<p>周五
+便服日——免校服日 👕👖👗</p>
+<p>🍿🍪🧁
+小卖部（Tuck Shop）</p>
+<p>祝您度过一个温暖舒适的夜晚！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:12）</h3><p>（纯照片帖，无文字）</p>
+<p>---</p><div class="photos"><img loading="lazy" src="photos/0921_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0921_foch_10.jpg" alt="" /></div></div></section><section class="day" id="d-2026-09-20"><h2>📅 2026-09-20（周日）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（12:01）全文翻译</h3><p>亲爱的 JK 家长们，
+希望您度过了一个美好的周末——真的越来越有秋天的感觉了！☀️🍂🍁</p>
+<p>温馨提醒：明天是学校拍照日，周二我们将拍摄全校全景合影。这两天拍照，学生都应穿正式校服（First Dress）。如果需要了解什么是正式校服，请查看我周五的帖子。</p>
+<p>祝您度过一个美好的周日！期待明天看到所有 JK 灿烂的笑容！📸</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-19"><h2>📅 2026-09-19（周六）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（08:19，已编辑）全文翻译</h3><p>亲爱的 JK 家长们，
+感谢您昨晚参加课程之夜（Curriculum Night）。希望您觉得收获满满。我已把演示文稿和课程表放到了我们的 Edsby 图书馆，方便您随时查阅。</p>
+<p>在继续学习彼此的名字和如何加入游戏的同时，我们也在学习如何自我介绍。今天，我们练习了边握手边说&quot;你好，我叫 ___&quot;。我们用一张贴纸来帮我们辨认右手，因为握手用的是右手。这个活动也帮助孩子们开始认识并区分自己的右手和左手。</p>
+<p>我们继续加深对长度的理解，这是数学小棍课题（Math Stick Inquiry）的一部分。孩子们正在练习比较不同物品的长度，并用散装材料和橡皮泥制作&quot;1 长 1 短&quot;的物品。JK 们继续参观小棍博物馆，在那里他们把两根小棍并排放在一起，判断哪根更长、哪根更短，或者它们是否一样长。看到他们探索新知识真是太美好了！下周，我们将在游戏式学习区和早间中心继续深化我们的理解。</p>
+<p>我们很兴奋下周要开启新的课题&quot;我们的身体，我们自己（Our Bodies, Ourselves）&quot;！受我们的自画像和 JK 们关于 Terry Fox 的腿和骨骼的问题启发，我们将开始探索我们身体的内外，看看这会带我们走向哪里。另外，我们还会在 SEL（社交情绪学习）课上探索感受。</p>
+<p>来看看下周：穿衣和注意事项</p>
+<p>周一
+正式校服
+📸😁 学校拍照日：我们将拍摄个人照和班级合影。孩子们应穿正式校服。附件中有关于什么是正式校服的说明。</p>
+<p>周二
+正式校服
+🎭《Silly Billy》剧场表演，在 RRHA（Robert Rourke Assembly Hall）
+📸👨‍👩‍👧‍👦 全景学校合影：我们将为小学部和中学部的所有学生、教职工拍摄一张全校大合影。</p>
+<p>周三
+正式校服</p>
+<p>周四
+体育校服
+🤸‍♀️🤸‍♂️ 第 1 节体操课，在 Gymalaya</p>
+<p>周五
+便服日——免校服日 👕👖👗
+便服日：便服日是非校服日，JK 们可以穿任何自己喜欢的衣服，只要方便玩耍和学习。请不要穿戏服。</p>
+<p>🍿🍪🧁
+小卖部（Tuck Shop）：在小卖部日，学生可以从餐厅取餐区选择一份小零食。零食可能包括爆米花、薯片，甚至一些特别制作的点心，比如果冻或季节惊喜。学生会和班级一起去取餐区挑选他们的小卖部零食。学生账户将在 9 月被收取 10.00 加元的统一费用，用于支付全年的小卖部费用。如果您不希望孩子参加小卖部，请发邮件至 jellis@pickeringcollege.on.ca 联系 Mrs. Ellis。</p>
+<p>希望您度过一个美好的周末！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>附件（非照片）：First Dress Uniform.pdf，1.05 MB，PDF 文件</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-18"><h2>📅 2026-09-18（周五）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:14）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0918_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0918_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Eliane Al Tawil（法语老师，14:53，JK French 分组帖）全文翻译</h3><p>和我们的小学员们一起上了一堂多么精彩的课！
+孩子们学法语的速度真快——有些已经开始唱&quot;Bonjour les amis!&quot;了！
+这周，我们还学习了天气词汇，比如 soleil、il fait chaud、il pleut，孩子们在制作自己的天气标签时玩得非常开心。
+每个人都有机会自我介绍，要么用简单的&quot;Je m&#x27;appelle…&quot;，要么简洁一点，直接说出自己的名字！
+我们还一起唱了字母歌，欣赏了故事《Billy va à l&#x27;école》。教室里满是小小的法语声音！
+看来我们的小小法语学习者们有了一个 très bon départ！</p>
+<p>---</p><div class="photos"><img loading="lazy" src="photos/0918_french_01.jpg" alt="" /><img loading="lazy" src="photos/0918_french_02.jpg" alt="" /><img loading="lazy" src="photos/0918_french_03.jpg" alt="" /><img loading="lazy" src="photos/0918_french_04.jpg" alt="" /><img loading="lazy" src="photos/0918_french_05.jpg" alt="" /><img loading="lazy" src="photos/0918_french_06.jpg" alt="" /><img loading="lazy" src="photos/0918_french_07.jpg" alt="" /><img loading="lazy" src="photos/0918_french_08.jpg" alt="" /><img loading="lazy" src="photos/0918_french_09.jpg" alt="" /><img loading="lazy" src="photos/0918_french_10.jpg" alt="" /><img loading="lazy" src="photos/0918_french_11.jpg" alt="" /><img loading="lazy" src="photos/0918_french_12.jpg" alt="" /></div></div></section><section class="day" id="d-2026-09-17"><h2>📅 2026-09-17（周四）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:35）</h3><p>（纯照片帖，无文字）</p>
+<p>---</p><div class="photos"><img loading="lazy" src="photos/0917_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0917_foch_10.jpg" alt="" /></div></div></section><section class="day" id="d-2026-09-16"><h2>📅 2026-09-16（周三）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:14）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0916_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0916_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（15:55）全文翻译</h3><p>亲爱的 JK 家长们，
+今天，我们用自画像探索了自己！我们仔细观察了自己的面部特征，创作了能展现我们自己的肖像。我们很喜欢每幅自画像都展现了每个 JK 独特的一面。</p>
+<p>我们全班开始好奇——我们的身体都一样吗？孩子们分享了他们对我们身体相同点和不同点的一些想法。我们很兴奋要开启一个受这些好奇启发的新课题：&quot;我们的身体，我们自己（Our Bodies, Ourselves）&quot;。我们迫不及待想一起了解更多关于身体的知识，也会随时向您汇报我们的学习之旅。</p>
+<p>在学习区时间里，一些 JK 选择继续创作自己的自画像，还加上了更多细节！很多孩子喜欢在搭建区用磁力片、磁性齿轮和彩色连接积木搭建。一些小朋友也喜欢在画架前创作新的画。</p>
+<p>下午，JK 们享受了音乐课，在体育课上和 Mrs Fisher 一起愉快地活动身体。</p>
+<p>祝您度过一个安宁的夜晚！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-15"><h2>📅 2026-09-15（周二）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（17:34，已编辑）全文翻译</h3><p>亲爱的 JK 家长们，
+今天，作为数学小棍课题（Math Stick Inquiry）的一部分，我们探索了长和短的区别。孩子们用散装材料和橡皮泥制作了&quot;1 长 1 短&quot;的物品。我们还参观了小棍博物馆，比较小棍的长度，并继续使用&quot;更长&quot;和&quot;更短&quot;这样的语言。</p>
+<p>我们很兴奋地分享，我们的一些自画像现在骄傲地展示在教室里！JK 们为自己的作品感到非常自豪，看到它们被展示出来非常兴奋。这次展示将保留下来，成为我们下周要开始的新课题&quot;我们的身体，我们自己（Our Bodies, Ourselves）&quot;的一部分！</p>
+<p>今天早上，我们聊了聊 Terry Fox。我们聊了 Terry 长什么样、生病后变成了什么样，以及他如何用一条腿跑遍加拿大。这是一个聊聊差异的好机会，以及和别人长得不一样是完全可以的。这是我们课上看的视频：Terry Fox - I Had a Dream</p>
+<p>我们期待下周的 Terry Fox 步行/跑步活动。提醒一下，如果您愿意，可以捐款。请查看下面的链接。</p>
+<p>如果您想捐款，并且是蓝舍（Blue House）成员，请点击这里。如果您想捐款，并且是金舍（Gold House）成员，请点击这里。如果您想捐款，并且是银舍（Silver House）成员，请点击这里。如果您想捐款，并且是红舍（Red House）成员，请点击这里。</p>
+<p>来看看下周：穿衣和注意事项</p>
+<p>周三
+正式校服</p>
+<p>周四
+体育校服
+🤸‍♀️🤸‍♂️ 第 1 节体操课，在 Gymalaya</p>
+<p>周五
+便服日——免校服日 👕👖👗
+便服日：便服日是非校服日，JK 们可以穿任何自己喜欢的衣服，只要方便玩耍和学习。请不要穿戏服。</p>
+<p>🍿🍪🧁
+小卖部（Tuck Shop）：在小卖部日，学生可以从餐厅取餐区选择一份小零食。零食可能包括爆米花、薯片，甚至一些特别制作的点心，比如果冻或季节惊喜。学生会和班级一起去取餐区挑选他们的小卖部零食。学生账户将在 9 月被收取 10.00 加元的统一费用，用于支付全年的小卖部费用。如果您不希望孩子参加小卖部，请发邮件至 jellis@pickeringcollege.on.ca 联系 Mrs. Ellis。</p>
+<p>祝您度过一个安宁的夜晚！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>（帖子附带的链接预览卡片：）
+Pickering College Gold House —— 来源：https://schools.terryfox.ca/135386/team/78629
+Pickering College Silver House —— 来源：https://schools.terryfox.ca/135386/team/78628
+Pickering College Red House —— 来源：https://schools.terryfox.ca/135386/team/78626
+Pickering College Blue House —— &quot;1980 年，Terry Fox 告诉我们，一个人只要努力，就能带来巨大的改变。作为一个班级，我们也有机会做出改变，帮助延续 Terry 的马拉松……&quot; —— 来源：https://schools.terryfox.ca/135386/team/78627</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:22）</h3><p>（纯照片帖，无文字）</p>
+<p>---</p><div class="photos"><img loading="lazy" src="photos/0915_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0915_foch_10.jpg" alt="" /></div></div></section><section class="day" id="d-2026-09-14"><h2>📅 2026-09-14（周一）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:30）全文翻译</h3><p>亲爱的 JK 家长们，
+今天，JK 们在学习用剪刀时玩得超开心！✂️ 我们学习了如何安全地握剪刀，并练习开合。孩子们还学会了沿线剪，有些小朋友甚至能剪出圆形和其他形状。JK 们在遵守剪刀安全规则方面做得很棒。在这一整年里，我们会继续练习使用剪刀。</p>
+<p>作为数学小棍课题（Math Stick Inquiry）的一部分，我们继续加深对长度的理解。今天，孩子们练习比较不同物品的长度，并用散装材料和橡皮泥制作&quot;1 长 1 短&quot;的物品。看到他们探索新知识真是太美好了，我们迫不及待想继续一起学习！</p>
+<p>今天，我们还兴奋地认识了 Owlbert 的朋友——狐狸 Finn！🦊 在我们的 SEL 课上，狐狸 Finn 介绍了这样一个想法：有些感受是舒服的，有些是不舒服的。我们聊了舒服和不舒服感受的例子，JK 们也分享了他们认为哪些是舒服的、哪些是不舒服的感受。JK 们还帮 Finn 想办法：当他有强烈的不舒服感受时可以怎么做。我们会继续一起学习关于感受的知识。</p>
+<p>今天，我们读了故事《Giraffes Can&#x27;t Dance》（《长颈鹿不会跳舞》）。这是关于长颈鹿 Gerald 的故事，他起初不会跳舞，但当他找到合适的音乐时，他发现自己能跳了。这是一个关于差异和尝试新事物的美好故事。</p>
+<p>下午，JK 们和大象 Ellie 上了音乐课 🐘，和 Ms Fisher 上了体育课，在课上玩了有趣的听力游戏。</p>
+<p>提醒事项
+· 请尽快交回家长问卷（Parent Questionnaire）。
+· 请记住，下周一是学校拍照日，周二是全景合影日。孩子们应穿正式校服。
+· 非常感谢您每天检查孩子的沟通袋，并把它空着送回学校。</p>
+<p>祝您度过一个美好的夜晚！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:17）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0914_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0914_foch_09.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 3｜作者：Ms. Karen McCallum-Ryan（13:53）全文翻译</h3><p>亲爱的 JK 和 SK 家长们，
+在课程之夜（2026 年 9 月 17 日）当天，高中部将提供儿童托管服务。如果您需要为孩子（JK 到 8 年级）安排托管，请填写这份表格：课程之夜托管表格（Curriculum Night Childcare Form）。希望您能来参加课程之夜！</p>
+<p>诚挚问候，
+Ms Ryan</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-11"><h2>📅 2026-09-11（周五）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:16）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0911_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0911_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（15:57）全文翻译</h3><p>亲爱的 JK 家长们，
+今天我们进行了第一次消防演习！JK 们在保持队伍、听从指令方面表现得非常出色。JK 们注意到了响亮的警报声。今晚可以问问他们！</p>
+<p>今天，我们还开始给我们特别的小棍上色了！🪵🎨 其中一位 JK 想出了一个很棒的主意——把自己的小棍变成生日蛋糕——这激发了更多关于小棍用途的想法。</p>
+<p>在 JK 又是忙碌的一天！今天，JK 们从学习区开始了一天。在探索森林（Discovery Forest，我们特别的户外学习区），他们绘制了地图！JK 们兴奋地穿过森林，在地图上标记有趣的发现。有的用写字板画地图，有的用卷尺和量尺测量距离。📏🌲</p>
+<p>明天
+正式校服
+全景学校合影
+🎭《Silly Billy》剧场表演，在 RRHA（Robert Rourke Assembly Hall）</p>
+<p>祝您度过一个美好的夜晚！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 3｜作者：Ms. Karen McCallum-Ryan（07:17）全文翻译</h3><p>笑一个！学校拍照日快到了。请注意，JK 到 5 年级学校拍照的时间表已更新——拍照现改为 2026 年 9 月 21 日（周一）。全景合影将于 9 月 22 日（周二）拍摄。学生拍照时必须穿冬季正式校服（winter first dress）。如果您对学校拍照有任何疑问，请联系 jellis@pickeringcollege.on.ca。对于时间表的更新及可能带来的不便，我们深表歉意。</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-10"><h2>📅 2026-09-10（周四）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（19:02，已编辑）全文翻译</h3><p>亲爱的 JK 家长们，
+今天早上，JK 们一进教室就看到了一只非常兴奋的小狗 Peter！🐶 他对我们的第一次晨会超级兴奋，但他很快意识到，自己需要一点帮助来学习如何做一个好的倾听者。</p>
+<p>我们介绍了我们的聆听规则：👀 眼睛看 👂 耳朵听 🤫 嘴巴静 🧍 身体定
+JK 们在学习和练习每条规则时表现得非常好，在晨会上也做得非常棒，把规则都用上了！我们会继续练习这些聆听技巧。我们发现配合动作真的能帮助 JK 们记住每条规则，所以您甚至可以在家和孩子一起练习！我在这篇帖子后面附上了我们的聆听规则可视化海报，方便您看到我们在学校用的动作。</p>
+<p>下午，JK 们上了和 Ms Fisher 的第一节体育课。他们探索了体育馆，学习了哨声规则，还玩了抓人游戏。🏃</p>
+<p>今天，我们读了《Mo&#x27;s Stick》（《莫的小棍》）——一个关于一只小老鼠找到一根非常特别的小棍的故事。Mo 用他的想象力，把小棍变成了各种各样的东西，包括飞向太空的工具、一根鱼竿，甚至是画画的工具。受 Mo 的启发，我们决定每个人都要找到属于自己的特别小棍！但首先，我们得想一想一个重要的问题：哪里能找到小棍呢？🐭🪵</p>
+<p>其中一位 JK 分享说：&quot;它们来自树木。&quot; 然后我们去了探索森林（Discovery Forest），我们特别的户外学习区。我们聊了聊在户外时如何学习和探索，然后出发去寻找属于每个人的特别小棍。JK 们仔细观察找到的小棍，自己选择了要带回教室的那一根。明天，我们会继续装饰我们的特别小棍！🎨🪵 我们迫不及待想看到每个 JK 如何用想象力把自己的小棍变成独一无二的东西。</p>
+<p>我们以 Roman 的生日饼干庆祝结束了这一天。Roman，生日快乐！🎈
+如果您想在学校用特别点心为孩子庆祝生日，可以在我们的 Edsby 图书馆找到生日订餐表（Birthday Order Form）。请填写表格并发送至 catering@pickeringcollege.on.ca。请注意，生日点心完全是自愿的，由家长自行决定。</p>
+<p>提醒事项
+- 请填写家长问卷（Parent Questionnaire）并尽快交回。
+- 两周后，我们将在 Gymalaya 开始为期 6 周的体操课程。今天，许可点击表已发出，请查收邮件并完成表格。</p>
+<p>周五
+· 正式校服</p>
+<p>祝您度过一个美好的夜晚！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>附件（非照片）：Listening Rules with Peter.pdf，176.29 KB，PDF 文件</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:45）</h3><p>（纯照片帖，无文字）</p>
+<p>---</p><div class="photos"><img loading="lazy" src="photos/0910_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_10.jpg" alt="" /><img loading="lazy" src="photos/0910_foch_11.jpg" alt="" /></div></div></section><section class="day" id="d-2026-09-09"><h2>📅 2026-09-09（周三）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（18:14）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0909_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0909_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（17:26，已编辑）全文翻译</h3><p>亲爱的 JK 家长们，
+在 JK 又是忙碌的一天！🖍️🌈🌟
+今天，我们开放了&quot;绘画&quot;和&quot;橡皮泥&quot;学习区。JK 们喜欢通过这些媒介创造性地表达自己。我们还把家庭相册放到了冷静角（Calm Corner），孩子们想家的时候可以翻看。💕</p>
+<p>我们继续练习各种常规，比如 Kinder Meeting、学习区用完后收拾整理，以及为户外玩耍做准备。JK 们这么快就熟悉了新常规，我们为他们感到非常骄傲！🌱</p>
+<p>JK 们今天还上了第一节音乐课。他们探索了新的音乐教室，认识了猴子 Melody。🐒🎵</p>
+<p>沟通袋（Communication Bags）
+每天晚上，孩子都会带着沟通袋回家。我们用这些袋子把老师的重要通知、孩子的作品和艺术品带回家。请每天晚上清空袋子，并每天把袋子送回学校。提前感谢您的配合。</p>
+<p>今天，孩子带回了一份家长问卷（Parent Questionnaire）。如果您能抽时间填写并交回学校，我们将非常感激。您的回答将帮助我们了解您的孩子，更好地理解如何在他们的幼儿园小班之旅中支持和鼓励他们。💌</p>
+<p>如果您昨天在烧烤会上没拿到，孩子还会带回一块接送用的绿色牌子（Green Sign）。接孩子时，请把这块牌子放在汽车仪表盘上。这样 Ms Ryan 或值班老师就能轻松看到牌子，叫您的孩子到您的车前。感谢您和我们一起努力，让下午的接送尽可能顺畅高效！🚗</p>
+<p>玩具带到学校
+我们恳请您不要让孩子把玩具或其他上学不需要的物品带来学校。玩具有时会分散注意力，而且学校有大量精美的材料、活动和学习区等着他们。我们也希望确保家里特别的玩具不会意外丢失、弄坏或损坏。非常感谢您的配合和理解。😊</p>
+<p>周四
+· 体育校服
+· 上午 9:45 在 Robert Rourke Assembly Hall 举行全校开学大会，欢迎家长参加。如果您能来，请把车停在棒球场（Baseball Diamond）。</p>
+<p>周五
+· 正式校服</p>
+<p>希望您度过一个美好的夜晚，好好休息！我们期待明天再一起度过有趣的一天。🌙✨</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-08"><h2>📅 2026-09-08（周二）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（18:08，纯照片帖，无文字）</h3><p>（注：原帖子 6 张为 .jpeg 结尾，实际文件名以各自扩展名为准）</p><div class="photos"><img loading="lazy" src="photos/0908_adami_01.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_02.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_03.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_04.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_05.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_06.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_07.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_08.jpg" alt="" /><img loading="lazy" src="photos/0908_adami_09.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（17:59）全文翻译</h3><p>亲爱的 JK 家长们，
+在 JK，我们度过了美妙的开学第一天。我们开始建设班级共同体、学习常规、探索学习区。JK 们认真倾听、尝试新事物、互相帮助，一整天都展现出了越来越强的独立性，真是太棒了。我们为他们感到非常骄傲！💫</p>
+<p>早上，我们聚在一起参加了第一次 Kinder Meeting——这是我们开启一天的特别方式。在 Kinder Meeting 上，我们一起唱歌、聊天气、数一数来了多少位小朋友。</p>
+<p>JK 们兴奋地见到了班级动物朋友们：长颈鹿 Zola、小狗 Peter 和猫头鹰 Owlbert。这些朋友们将在这一整年里帮我们引入新知识、鼓励深思熟虑的选择、庆祝成功，并给我们的每一天增添更多乐趣和奇妙。🦒🐶🦉</p>
+<p>我们以 Owlbert 带来的真正难忘的惊喜结束了这一天：&quot;魔法橡皮泥&quot;！起初它看起来像普通的白色橡皮泥，但我们告诉孩子们，如果在揉捏时它变了颜色，就预示着他们将拥有美妙的一学年。当大家挤压、滚动、塑造橡皮泥时，兴奋感越来越强——然后它真的变色了！🌈</p>
+<p>提醒事项
+• 如果还没有交，请带黑色皮鞋、室内跑鞋、一套换洗衣物和一张 4x6 的全家福。
+• 明天我们会让孩子把沟通袋带回家。请明天查看 Edsby 了解更多相关信息。</p>
+<p>本周：
+周三
+· 正式校服
+周四
+· 体育校服
+· 上午 9:45 在 Robert Rourke Assembly Hall 举行全校开学大会，欢迎家长参加。如果您能来，请把车停在棒球场。
+周五
+· 正式校服</p>
+<p>我们迫不及待迎接明天精彩的一天！</p>
+<p>温暖的问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-05"><h2>📅 2026-09-05（周六）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（12:19，已编辑）全文翻译</h3><p>亲爱的 JK 家长们，
+离美妙的开学第一天越来越近啦！我们一直在忙着布置教室、为第一周一起的欢乐时光做计划。我们太兴奋了，要和 JK 们一起开启这段新的冒险！</p>
+<p>⏰ 第一天时间表
+仅开学第一天，JK 的上课时间是上午 9:00。之后，上课时间为上午 8:30，送园从 8:00 开始。</p>
+<p>👕 第一天穿什么
+开学第一天，请 JK 们穿 PC 体育校服配舍服 T 恤（红、蓝、金或银色）。❤️💙💛🩶</p>
+<p>🍔 迎新烧烤会——周二
+周二放学后，请参加一年一度的 Pickering College 迎新烧烤会，时间为下午 3:30–5:30。活动停车在学校后面的棒球场。请停车后到 West Lake House 的东门接孩子，然后就可以去烧烤会啦！</p>
+<p>🎒 第一天要带的东西
+请查看我下面的帖子，了解第一天要带孩子带的东西清单。</p>
+<p>希望您享受最后一点夏日时光，度过一个美好的长周末！</p>
+<p>温暖的问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-04"><h2>📅 2026-09-04（周五）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（19:29，已编辑）全文翻译</h3><p>亲爱的 JK 家长们，
+欢迎来到 2026-2027 学年幼儿园小班（Junior Kindergarten）的 Edsby 群组！💗
+这是我们的班级中心，在整个学年里，我们会在这里分享重要更新和消息、日历日期、即将到来的活动和其他有用的信息。我们还会分享每日照片，让您一窥孩子在学校的学习和经历。</p>
+<p>虽然您的孩子可能不会出现在每张照片里，但这些快照是了解我们一天的窗口，也是很好的聊天开场白。比如，如果您看到一张学生们听故事的照片，可以问：&quot;你们今天听了什么故事？&quot;或&quot;你最喜欢哪个部分？&quot; 有时这些简单的问题会引出他们一天中最有趣的小故事。我们鼓励您定期查看 Edsby，及时了解班级动态。</p>
+<p>这篇帖子后面附了一份清单，列出了开学第一天要让孩子带的东西。您会注意到，我们还请您准备一张 4x6 的全家福。这些照片将成为我们冷静角（Calm Corner）家庭相册的一部分。孩子们想家的时候可以翻看相册，这常常成为孩子们一起享受的特别而深受喜爱的活动。</p>
+<p>感谢您在我们开启这个激动人心的新学年之际给予的支持与合作！我们非常期待认识您的孩子们、建设我们的班级共同体，并分享这一年将要发生的精彩学习和成长。</p>
+<p>我们迫不及待要在开学第一天——9 月 8 日（周二）迎接 JK 们！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>附件（非照片）：What to pack for JK.pdf，816.09 KB，PDF 文件</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-25"><h2>📅 2026-09-25（周五）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:13）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/0925_foch_01.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_02.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_03.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_04.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_05.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_06.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_07.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_08.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_09.jpg" alt="" /><img loading="lazy" src="photos/0925_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（15:53）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>JK 班这周真是忙碌又精彩的一周！从学校照片拍摄，到戏剧表演，到体操课，再到小卖部（Tuck Shop），这一周充满了新的体验和学习。</p>
+<p>JK 们都很喜欢第一次去小卖部，也很喜欢挑选自己特别的心头好零食。今天的小卖部有特别的&quot;秋日苹果&quot;主题。🍎🍂🍁</p>
+<p>今天，我们读了一个关于特里·福克斯（Terry Fox）的故事，还找到了我们最初关于他的两个问题的答案。我们了解到，他的腿因为膝盖疼痛不得不通过手术切除——那是一种叫癌症的病。他的腿被一条假肢取代——JK 们觉得很有意思的一点是，这条假肢其实并不是他的骨头。这个故事让 JK 们非常有动力，也非常期待周一参加 PC 特里·福克斯跑！谢谢 Florence 把这本书从家里带来和我们分享。如果您家里有和我们正在学习的内容相关的书，欢迎随时让孩子带到学校来。📖</p>
+<p>我们很期待下周继续我们的人体探究课题，会有好玩的新学习区（Learning Spaces）。</p>
+<p>下周，我们很高兴要启动&quot;每日领袖&quot;（Daily Leader）项目。您会在孩子的联络袋（communication bag）里找到一封信和一份日历，里面有更多信息。这封信、日历和第一个带回家的活动都可以在我们 Edsby 图书馆的&quot;Daily Leader Activities&quot;文件夹中找到。第一轮&quot;每日领袖&quot;没有带回家的活动。我们会介绍这个角色，聊聊成为领袖意味着什么，并练习担任这个角色。&quot;关于我&quot;（All About Me）展示将于 10 月 22 日开始。您的孩子将在他/她的第二个&quot;每日领袖&quot;日做展示。建议您等到接近展示日期再准备展示。如有任何问题，请给我们发消息或邮件。</p>
+<p>展望下周：穿什么、要知道什么</p>
+<p>周一
+体育校服
+· 🏃‍♀️🏃‍♂️🏃 特里·福克斯跑，早上 8:30——欢迎家长和孩子一起绕校园跑一圈，纪念特里的精神，为癌症研究筹款。
+如果您有意捐款，且是蓝舍（Blue House）成员，请点这里。
+如果您有意捐款，且是金舍（Gold House）成员，请点这里。
+如果您有意捐款，且是银舍（Silver House）成员，请点这里。
+如果您有意捐款，且是红舍（Red House）成员，请点这里。
+· 🌟 每日领袖：Anoosheh</p>
+<p>周二
+正式校服
+· 🌟 每日领袖：Florence</p>
+<p>周三
+橙色衬衫日——请孩子们穿橙色上衣配体育裤，纪念全国真相与和解日。🧡
+· 🚜 去 Blue and Silver 农场春游：我们很期待和 SK 班一起第一次去 Blue and Silver 农场。我们会探索这个空间、认识住在那里的鸡，还会和我们优秀的户外教育老师 Ms Amadori 一起做户外学习。
+· 🌟 每日领袖：Tara</p>
+<p>周四
+体育校服
+· 🤸‍♀️🤸‍♂️ 体操课第 2 节，在 Gymalaya
+· 🌟 每日领袖：Ava</p>
+<p>周五
+正式校服
+· 🌟 每日领袖：Rivers</p>
+<p>希望您拥有一个超级棒的周末！周一见，JK 们穿好跑步装备来参加特里·福克斯跑！</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>（帖子附带的链接预览卡片：）
+Pickering College Blue House —— &quot;1980 年，Terry Fox 告诉我们，一个人只要努力，就能带来巨大的改变。作为一个班级，我们也有机会做出改变，帮助延续 Terry 的马拉松……&quot; —— 来源：https://schools.terryfox.ca/135386/team/78627
+Pickering College Gold House —— 来源：https://schools.terryfox.ca/135386/team/78629
+Pickering College Silver House —— 来源：https://schools.terryfox.ca/135386/team/78628
+Pickering College Red House —— 来源：https://schools.terryfox.ca/135386/team/78626</p>
+<p>（全文完）</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-29"><h2>📅 2026-09-29（周二）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:33）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>昨天，JK 们在特里·福克斯跑（Terry Fox run）中锻炼了腿部和心血管系统，而今天他们锻炼了手指！我们精细动作课程的一部分是&quot;手指健身房&quot;（finger gym）——一系列有趣的诗歌、动作和活动，帮助强化手指上的小肌肉、发展协调能力，并建立我们在写字、画画、剪纸、使用工具和玩具等日常任务中需要的控制力和灵活性。今天，JK 们学了一首叫《10 Little Fingers》的诗歌，并练习了每根手指的名字：拇指（thumb）、食指（pointer）、高个子（tall man）、无名指（ring）和小指（pinky）！学会这些名字有助于孩子们更清楚地认识自己的手指，也让我们在谈论手部动作和精细动作技能时有共同的词汇。</p>
+<p>在学习区（Learning Spaces）时间里，小组进行了精细动作加数学挑战。每个 JK 发了一张数字卡片，然后用镊子小心翼翼地夹起对应数量的绒球。一点手指锻炼、一点数数练习，再加上高度专注力——全都融在了一项活动里！</p>
+<p>我们今天还去了图书馆，Mrs Johnson 给我们读了一个叫《Today is Orange Shirt Day》的故事，为明天的全国真相与和解日做准备。在幼儿园阶段，这个主题会以适合孩子年龄的方式来探索，帮助 JK 们理解善良、归属感和关爱他人的重要性。这也包括七祖父教诲（7 Grandfather Teachings）。</p>
+<p>我们今天剩下的时间都安排得满满的：跟 Mme Al Tawill 上法语课，还有跟 Mrs Kaveh 和 Mrs Wells 上幼儿园合唱课（Kindie Choir）。</p>
+<p>❗重要更新❗：由于不可控因素，我们明天无法去 Blue and Silver 农场了。我们仍会和 SK 班以及我们的户外教育老师 Ms Amadori 在校园里开展活动。我们会尽快重新安排农场之行！</p>
+<p>本周着装及日程须知：
+周三</p>
+<p>橙色衬衫日——请孩子们穿橙色上衣配体育裤，纪念全国真相与和解日。🧡</p>
+<ul><li>🌟每日领袖：Tara</li></ul>
+<p>周四</p>
+<p>体育校服</p>
+<ul><li>🤸‍♀️🤸‍♂️体操课第 2 节，在 Gymalaya</li></ul>
+<ul><li>🌟每日领袖：Ava</li></ul>
+<p>周五</p>
+<p>正装校服（First Dress Uniform）</p>
+<ul><li>🌟每日领袖：Rivers</li></ul>
+<p>祝您有个美好的夜晚！</p>
+<p>诚挚问候，</p>
+<p>Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《Today is Orange Shirt Day》（Phyllis Webstad 著），在线朗读（作者本人朗读，CBC Kids）：https://www.youtube.com/watch?v=qCfDisx64nA</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-09-30"><h2>📅 2026-09-30（周三）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:00）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>今天看到所有 JK 宝宝都穿着橙色衬衫，纪念全国真相与和解日，真是太好了。我们读了一个叫《With Our Orange Hearts》的故事，聊了聊当有人拿走 Phyllis 最喜欢的橙色衬衫时，她可能会是什么感受。我们谈到这是不友善的行为，而我们今天穿橙色衬衫，是为了记住我们想以善意对待彼此。🧡</p>
+<p>今天下午，JK 班和 SK 班的孩子们和我们的户外教育老师 Ms. Amadori 一起，在户外教室（Outdoor Classroom）学习了七圣教诲（Seven Sacred Teachings），非常开心。我们一起读了《The Seven Sacred Teaching Animals》，这是来自 Anishinaabe 人的故事，帮助我们学习如何善良、有礼地生活。在这个故事里，每种动物都教会我们一件重要的事——比如，老鹰教会我们爱（love），熊教会我们勇气（courage）。接着学生们两两结对，组成了&quot;幼儿园好搭档&quot;（一个 SK 配一个 JK），一起玩了一个寻宝游戏，寻找代表七圣教诲每一种教诲的毛绒玩具动物。</p>
+<p>我们会在这一整年里继续开展幼儿园好搭档活动，让我们的 JK 宝宝有更多机会认识学校里的其他孩子，并向优秀的 SK 搭档们学习他们带来的美好榜样。问问您的孩子，他的 SK 搭档是谁吧！👭</p>
+<p>我们今天也让手指好好锻炼了一番，继续玩了&quot;手指健身房&quot;（Finger Gym）！💪✏️ JK 宝宝们还记得手指们的特别名字：拇指和食指捏住铅笔靠近笔尖的位置，高个子（Tall Man）从侧面扶住，无名指和小指就&quot;搭顺风车&quot;（&quot;go along for the ride&quot;）。我们要练成的握笔姿势请看下面的照片。</p>
+<p>然后是玩一会儿&quot;抓珠子&quot;（&quot;Catch the Bead&quot;）游戏的时间啦！JK 宝宝们用马克笔的笔尖轻轻地推动一颗珠子在纸上走，尽量不让珠子&quot;逃走&quot;！这个有趣的活动让手指们有机会练习握力、控制和协调能力，同时锻炼了手指上那些重要的小肌肉。✍️</p>
+<p>非常感谢我们过去两天出色的每日领袖 Florence 和 Tara。这两个朋友的名字都是两个音节！💫</p>
+<p>本周着装及日程须知：</p>
+<p>周四
+体育校服
+· 🤸‍♀️🤸‍♂️ 体操课第 2 节，在 Gymalaya
+· 🌟 每日领袖：Ava</p>
+<p>周五
+正装校服（First Dress Uniform）
+· 🌟 每日领袖：Rivers</p>
+<p>希望您享受九月的最后一个夜晚！🍂</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《With Our Orange Hearts》（Phyllis Webstad 著），在线朗读（Melody Crowe 朗读）：https://www.youtube.com/watch?v=N1yICqoAQgs
+📖 今日绘本：《The Seven Sacred Teaching Animals》（Anishinaabe 故事，Kirt Bobbie 著），在线朗读：https://www.youtube.com/watch?v=ZnAT4LGkfKo</p><div class="photos"><img loading="lazy" src="photos/0930_pencilgrip_01.jpg" alt="" /></div></div></section><section class="day" id="d-2026-10-01"><h2>📅 2026-10-01（周四）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（15:51）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>今天我们又在 Gymalaya 度过了一节很棒的体操课！孩子们尝试了 4 条新的体操路线，每一条都完成得非常出色。在教练的指导下，他们在平衡木上保持平衡、在蹦床上跳跃，还做了前滚翻。之后我们请孩子们分享了自己最喜欢的体操环节，他们的回答如下。</p>
+<p>我最喜欢的体操环节是……</p>
+<ul><li>跳跃 – Xiran</li><li>倒翻滚 – Jerry</li><li>平衡木 – William</li><li>攀岩墙 – Ava</li><li>长距离跳跃 – Jack</li><li>滑行 – Preston</li><li>跳跃后的落地 – Tara</li><li>滑滑梯 – Hannah</li><li>全部都喜欢 – Leonardo</li><li>跳跃 – Elsie</li><li>跳跃 – Anoosheh</li><li>蹦床 – Florence</li><li>跳跃 – Aiden</li></ul>
+<p>今天的 Daily Leader 是 Ava。我们发现她的名字很短——只有 3 个字母，却有两个音节！</p>
+<p>星期五</p>
+<p>第一次穿正装校服（First Dress Uniform）</p>
+<ul><li>🌟Daily Leader：Rivers</li></ul>
+<p>祝大家度过一个温馨的雨夜，十月快乐！🎃</p>
+<p>诚挚问候，
+Adami 老师和 Foch 老师</p>
+<p>今日无绘本。</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-10-02"><h2>📅 2026-10-02（周五）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:23）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/1002_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_08.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_09.jpg" alt="" /><img loading="lazy" src="photos/1002_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（16:19）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>今天 JK 们一到校，就准备好帮 Owlbert 处理一个小意外。在夜间锻炼时，Owlbert 有点太投入了，不小心把我们的人体模型碰散架了！哎呀！他需要 JK 们帮忙把所有部位放回正确的位置。孩子们的思考过程非常精彩。有些 JK 运用了从书本和课堂讨论中学到的知识（比如他们知道心脏在胸腔里），另一些则用空间思维来判断不同部位可能放在哪里：大的器官要放在大的空间里。JK 们在学习区（Learning Spaces）时间里继续研究这个人体模型，我们还给他们的这项工作起了个非常正式的名字：&quot;人体散架事件调查！&quot;🔎🫀🦴</p>
+<p>感谢我们的每日领袖 Rivers。他的名字有 6 个字母、2 个音节！</p>
+<p>今天下午，我们练习了在学校保护自己的另一种重要方式——我们进行了封锁演习（lockdown drill）。我们把它和消防演习做了对比：消防演习时，我们听到警报声就撤出大楼；而封锁演习时，我们会听到广播里的声音，要求我们待在室内、找个安全的地方躲好、保持安静。每个 JK 都领到了一根特别的&quot;封锁棒棒糖&quot;，帮助大家练习保持安静。他们表现得非常棒，安静又安全地坚持了大约 15 分钟！做得好，朋友们！👏</p>
+<p>封锁演习还引发了一场很好的讨论，我们还读了一个叫《When I Feel Scared》的故事。我们聊到，有时候&quot;害怕&quot;能保护我们的安全，而有时候即使在安全的时候我们也会感到害怕。我们探讨了害怕时身体会有什么感觉（紧绷或发冷的感觉），还一起想了感到害怕时可以做的事：找大人聊聊、请信任的大人抱抱，或者找个舒适的角落，拿上毯子、毛绒玩具和/或一本书。我们还聊到，学校的 Calm Corner（冷静角）就是做这些事的好地方。💗</p>
+<p>下周着装及日程须知</p>
+<p>周一
+体育校服
+周二
+第一次穿正装校服（First Dress Uniform）
+周三
+体育校服
+· 🚜去 Earthbound 农场秋游：我们要去秋游啦！🍂🎃 我们上午 9:00 从学校出发，中午 12:00 前返回。
+如果您还没有填 Permission Click 同意表，请确保完成：https://permission.click/7tnabmb0y6t5/ca
+周四
+不穿校服——便装日 👕👖👗
+· 如果您的孩子周四想穿便装，请在贴好标签的信封里装上至少 $3 的捐款，信封上写上孩子所在 house 的颜色，放到孩子的家校联系袋里。捐款将捐给 Newmarket Food Pantry（每月帮助 1,100 人，其中 30% 是儿童）。
+🍿🍪🧁小卖部（Tuck Shop）
+周五
+不上学——PD 日（教师专业发展日）</p>
+<p>祝大家周末愉快！🍁🍎🧡</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《When I Feel Scared》，在线朗读（TeacherTube · Mr. Jones 朗读）：https://www.teachertube.com/videos/read-aloud-when-i-feel-scared-read-by-mr-jones-the-steam-teacher-431050（YouTube 未找到合适版本）</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-10-05"><h2>📅 2026-10-05（周一）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:18）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/1005_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_08.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_09.jpg" alt="" /><img loading="lazy" src="photos/1005_foch_10.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（15:44）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>我们迎来了美好的周一，为新的一周开了个好头！</p>
+<p>今天上午，我们开始了语音意识课（Phonemic Awareness lessons）。这是全班一起上的课，我们在这里锻炼倾听能力，学习去察觉、把玩、运用单词中的发音。本周的技能包括：听并辨认常见的环境音和动物音、学押韵词、辨认 JK 孩子们名字中的首音，以及唱字母歌。您知道吗，语音意识和字母知识是预测早期阅读成功最有效的两个指标。我们接下来的课程会通过大量游戏化的练习，帮助 JK 孩子们打好这两项重要的基础技能。</p>
+<p>在&quot;感受与朋友&quot;（Feelings and Friends）课上，我们继续学习认识我们的大情绪，特别聚焦在&quot;愤怒&quot;上。今天，我们读了《When I Feel Angry》，还看了一个 Daniel Tiger 的片段，提醒我们：&quot;停、停、停！生气是可以的，但伤害别人就是不、不、不可以的。&quot; 学会辨认和管理强烈的情绪，是 JK 孩子们发展自我调节能力的重要部分。在这个年龄，孩子们仍在学习理解自己强烈的情绪并控制冲动。通过在我们平静的时候练习这些技能，可以帮助 JK 孩子们开始察觉身体在告诉他们&quot;我生气了&quot;的信号，并学会安全、得体的回应方式。本周剩下的时间，我们将探索 JK 孩子们可以用来管理愤怒、回到平静状态的不同策略。</p>
+<p>我们的一位 JK 小朋友昨天过了 4 岁生日——Hannah 生日快乐！🧁🥳</p>
+<p>本周穿着与须知：</p>
+<p>周二
+第一次穿正装校服（First Dress Uniform）</p>
+<p>周三
+体育校服（PE Uniform）
+· 🚜去 Earthbound 农场秋游：我们要去秋游啦！🍂🎃 我们上午 9:00 从学校出发，中午 12:00 前返回。</p>
+<p>周四
+不穿校服——便装日（Dress Down Day）
+· 如果您的孩子周四想穿便装，请用贴好标签的信封（写上孩子 house 的颜色）放入家校联系袋，捐款至少 $3。捐款将捐给 Newmarket Food Pantry（每月帮助 1,100 人，其中 30% 是儿童）。💛</p>
+<p>🍿🍪🧁小卖部（Tuck Shop）</p>
+<p>周五
+不上学——PD 日（教师专业发展日）</p>
+<p>希望大家享受这个阳光明媚的夜晚！</p>
+<p>谨致问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《When I Feel Angry》，在线朗读（YouTube · Hello!Lucky Read-Aloud）：https://www.youtube.com/watch?v=axyhzdCCGCI</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-10-06"><h2>📅 2026-10-06（周二）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（15:48）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>我们似乎有了一个新的户外探究主题——秋天！秋天是一个自然的季节性探究主题，它随着我们周围天气和自然的变化而出现。我们增加了新的探索秋天的学习区，包括橡皮泥创作、树叶画，以及一个秋天纸杯蛋糕数学角——在那里，JK 小朋友们按照数字食谱来装饰自己的纸杯蛋糕（比如：5 颗橡子、2 片叶子、1 个南瓜）。昨天，JK 小朋友们开始收集树叶，还有一个小朋友提议来一次&quot;树叶散步&quot;！今天，我们在 Dr. Locke 的花园里读了《Fall Leaves Fall》，然后在校园里寻找那些开始变色、落叶的树。JK 小朋友们很喜欢这个自然活动，最后我们在美丽的秋天天气里享受了一段户外时光。</p>
+<p>我们还在继续探究&quot;我们的身体，我们自己&quot;（Our Bodies, Ourselves），周四我们会把身体探究和新的秋天探究结合起来。您能帮我们收集一些秋天的树叶，让孩子带到学校来吗？我们需要各种形状、秋天颜色和大小的树叶。</p>
+<p>我们今天去了图书馆，每个 JK 小朋友都借了一本书带回教室，放在教室的书架上。问问您的孩子选了哪本书吧！</p>
+<p>谢谢今天的值日班长 Leonardo。Leonardo 的名字有 8 个字母、4 个音节！我们注意到还有另外两个小朋友的名字也是 8 个字母（Florence 和 Anoosheh），但音节没有这么多。</p>
+<p>本周穿衣及注意事项：</p>
+<p>周三
+体育课校服（PE Uniform）
+· 🚜 Earthbound 农场秋游：我们要去秋游啦！🍂🎃 上午 9:00 从学校出发，中午 12:00 前返回。
+🌟 值日班长：Xiran</p>
+<p>周四
+不穿校服——便装日
+· 如果您的孩子周四想穿便装，请把至少 $3 的捐款装进贴好标签的信封（写上 house 颜色），放进家校联系袋。捐款将捐给 Newmarket Food Pantry，该机构每月帮助 1,100 人，其中 30% 是儿童。💛
+🍿🍪🧁 小卖部（Tuck Shop）
+🌟 值日班长：Jack</p>
+<p>周五
+不上学——PD 日（教师专业发展日）</p>
+<p>祝您有个愉快的夜晚！
+此致，
+Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《Fall Leaves Fall》（Zoe Hall 著），在线朗读（YouTube · READ IT AGAIN! 频道，2 分 28 秒）：https://www.youtube.com/watch?v=vqR3zcmgv5c</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:24）（纯照片帖，无文字）</h3><p>---</p><div class="photos"><img loading="lazy" src="photos/photo01.jpg" alt="" /><img loading="lazy" src="photos/photo02.jpg" alt="" /><img loading="lazy" src="photos/photo03.jpg" alt="" /><img loading="lazy" src="photos/photo04.jpg" alt="" /><img loading="lazy" src="photos/photo05.jpg" alt="" /><img loading="lazy" src="photos/photo06.jpg" alt="" /><img loading="lazy" src="photos/photo07.jpg" alt="" /><img loading="lazy" src="photos/photo08.jpg" alt="" /><img loading="lazy" src="photos/photo09.jpg" alt="" /><img loading="lazy" src="photos/photo10.jpg" alt="" /></div></div></section><section class="day" id="d-2026-10-07"><h2>📅 2026-10-07（周三）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:26）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>今天我们去了 Earthbound 农场秋游，真是满满当当的一天——有南瓜、小动物，还有很多户外乐趣！🚜🍂🐴🎃</p>
+<p>农场的导游 Carol 热情地欢迎了我们，每个小朋友都得到了一颗小白南瓜，可以画一画。在我们画画的时候，还有两只小动物来串门：一只毛茸茸的小兔子，名叫 Duchess，还有一只豚鼠，名叫 Waffles。</p>
+<p>接着，导游 Jake 带我们参观了农场里其他的小动物，还教我们怎么安全地喂食——手要平贴着围栏伸过去，千万不要伸进围栏里面。🦙</p>
+<p>我们问了全班小朋友：今天秋游最喜欢哪个环节？他们的回答是：
+· Xiran——摸马
+· Florence——见到马
+· Tara——看到小猪，还有所有的小动物
+· Hannah——喂山羊
+· Anoosheh——喂山羊
+· Preston——每个环节都喜欢
+· Leonardo——回程大巴上睡了个午觉
+· Aiden——看到一匹马
+· Ava——摸马
+· William——喂山羊
+· Elsie——马
+· Jack——摸马
+· Rivers——鸭子</p>
+<p>有些 JK 小朋友在农场里捡到了很大的郁金香树叶子。麻烦家长们帮忙收集各种形状、颜色、大小的秋天落叶，让孩子带到学校来；已经送过树叶来的家庭，谢谢你们！🍁</p>
+<p>感谢今天的值日班长 Xiran，谢谢她的领导力！</p>
+<p>本周穿衣及注意事项：
+周四
+不穿校服——便装日
+· 如果您的孩子周四想穿便装，请把至少 $3 的捐款装进贴好标签的信封（写上 house 颜色），放进家校联系袋。捐款将捐给 Newmarket Food Pantry，该机构每月帮助 1,100 人，其中 30% 是儿童。💛
+🍿🍪🧁 小卖部（Tuck Shop）
+🌟 值日班长：Jack
+周五
+不上学——PD 日（教师专业发展日）</p>
+<p>祝您今晚愉快！明天便装日和小卖部见！
+此致，
+Mrs Adami 和 Mrs Foch</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:34）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/1007_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_08.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_09.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_10.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_11.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_12.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_13.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_14.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_15.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_16.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_17.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_18.jpg" alt="" /><img loading="lazy" src="photos/1007_foch_19.jpg" alt="" /></div></div></section><section class="day" id="d-2026-10-08"><h2>📅 2026-10-08（周四）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（17:09）全文翻译</h3><p>亲爱的 JK 家长们：</p>
+<p>今天早上看到所有 JK 小朋友都穿着便装来上学，我们太开心了。感谢所有家庭为 Newmarket Food Bank 的捐款！💗</p>
+<p>今天，我们围绕&quot;Our Bodies, Ourselves（我们的身体，我们自己）&quot;这个探究主题做了很多有趣的联系。今天早上，我们重温了一个让自己平静下来的方法：深呼吸（我们说&quot;闻一闻花香，吹灭蜡烛&quot;），还聊了聊当我们深呼吸时，身体里面正在发生什么。我们发现，我们的胸口会&quot;升起来再降下去&quot;，或者&quot;变大&quot;。我们发现，吸气时我们的肺会充满空气，呼气时肺又会变小。我们用气球来帮助想象我们的肺在胸腔里是怎么工作的！🎈</p>
+<p>今天的探究乐趣还不止这些。我们还读了 Lois Ehlert 的绘本故事《Leaf Man》，JK 小朋友们很喜欢书里用真正的秋叶做成的插画。我们仔细看了 Leaf Man，还聊了聊他的身体部位是怎么呈现的。接着我们邀请 JK 小朋友们在 Makerspace 做属于自己的 leaf man（树叶人）或 leaf woman（树叶女士）。感谢大家收集树叶并送到学校来。请继续送树叶来，因为我们还有很多有趣的活动要做！🍂</p>
+<p>感谢我们今天的 Daily Leader（每日小领袖）Jack！他的名字有 4 个字母、1 个音节！他是我们第一个名字只有 1 个音节的好朋友。</p>
+<p>来做一次快速的 PC Sweater Check（校服毛衣检查）！请花一点时间检查一下孩子的 uniform sweater（校服毛衣），确认拿的是属于自己孩子的那一件。可能有几件毛衣不小心&quot;换了人家&quot;。非常感谢！</p>
+<p>我们很想知道，有没有 JK 家庭会庆祝 Diwali（排灯节），如果您的孩子愿意在我们一起庆祝这个美丽的光明节日的 Morning Meeting（晨会）上分享或参与，请告诉我们。如果您的家庭想参加，请在 Edsby 上给我们发消息。我们很想和你们一起学习、一起庆祝！💛</p>
+<p>A Look at the Week Ahead（下周预告）：穿什么、要知道什么</p>
+<p>周一
+不上学——祝所有庆祝感恩节的家庭感恩节快乐！🦃🍂</p>
+<p>周二
+First Dress Uniform（正装校服）
+🌟Daily Leader: Aiden</p>
+<p>周三
+First Dress Uniform（正装校服）
+🌟Daily Leader: Jerry</p>
+<p>周四
+PE Uniform（体育课服装）
+🌟Daily Leader: Preston
+Literacy Night（识字之夜）：欢迎周四晚上来了解我们的 Literacy（读写）课程，6:00pm 开始，家长和孩子都可以来参加。更多信息可以在 Ms Ryan 发来的 Junior School Week Ahead（小学部下周预告）邮件里找到。</p>
+<p>周五
+First Dress Uniform（正装校服）
+🌟Daily Leader: Elsie</p>
+<p>JK 小朋友们开学第一个月表现得非常棒，我们为他们感到骄傲。希望你们和家人度过一个愉快的长周末。</p>
+<p>Take care，
+Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《Leaf Man》（Lois Ehlert 著），在线朗读（YouTube · 日间版+睡前版）：https://www.youtube.com/watch?v=DmS-jkoSheU</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-10-09"><h2>📅 2026-10-09（周五）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（17:42）全文翻译</h3><p>亲爱的 JK 家长们：</p>
+<p>希望你们正在享受长周末的开始！</p>
+<p>我们正在为即将开展的一项活动收集纸巾卷的硬纸筒。如果您家里有或在回收垃圾桶里有，我们非常希望您下周让孩子把它们带到学校来。谢谢。</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>❤️🧡💛</p>
+<p>📖 今日绘本：无</p>
+<p>---</p><p class="note">（本帖无照片）</p></div></section><section class="day" id="d-2026-10-13"><h2>📅 2026-10-13（周二）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（15:49）全文翻译</h3><p>亲爱的 JK 家长们：</p>
+<p>希望你们和家人都度过了一个美好的长周末。今天看到 JK 小朋友们回来了，还听到他们讲了一点点自己的周末，真好。🙂</p>
+<p>今天我们读了一个叫《A Warm, Cozy Nest》的故事，本周的数学学习会围绕这个故事展开。通过这个故事和我们的游戏活动，我们正在练习数到 5 的集合计数，以及认识 1 到 5 的数字。读完故事后，我们把故事搬上了舞台——请了五位小朋友扮演故事里的五只小鸟，做了一次戏剧重演。🐦</p>
+<p>我们还读了一个叫《Pick a Pumpkin》的故事，讲的是一家人去南瓜园、摘了一堆南瓜带回家、雕成杰克南瓜灯的故事！读完之后，我们聊了南瓜可以怎么玩（洗一洗、画一画、雕刻、做南瓜派、贴贴纸装饰），JK 们很喜欢把这些和自己的亲身经历联系起来。在探索秋天这个季节时，南瓜永远是最受欢迎的主题！🎃</p>
+<p>感谢大家继续送来树叶和纸巾卷的纸筒！</p>
+<p>感谢我们的每日领袖 Aiden！他的名字有 5 个字母、2 个音节。</p>
+<p>本周着装及日程须知：</p>
+<p>周三
+正装校服（First Dress Uniform）
+· 🌟 每日领袖：Jerry</p>
+<p>周四
+体育校服（PE Uniform）
+· 🤸‍♀️🤸‍♂️ 体操课第 4 节，在 Gymalaya
+· 🌟 每日领袖：Preston
+· Literacy Night（识字之夜）：欢迎周四晚上来进一步了解我们的 Literacy（读写）课程，6:00pm 开始，家长和孩子都欢迎参加。更多信息可以在 Ms Ryan 上周发出的 Junior School Week Ahead（小学部下周预告）邮件里找到。</p>
+<p>周五
+正装校服（First Dress Uniform）
+· 🌟 每日领袖：Elsie</p>
+<p>希望你们享受这个暖得出奇的夜晚！看起来明天温度会降一点。</p>
+<p>诚挚问候，</p>
+<p>Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《A Warm, Cozy Nest》——没找到合适的在线朗读版；《Pick a Pumpkin》（Patricia Toht 著）在线朗读（YouTube）：https://www.youtube.com/watch?v=0_65TvQLfBo</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:11）纯照片帖</h3><p>（纯照片帖，无文字）</p>
+<p>---</p><div class="photos"><img loading="lazy" src="photos/1013_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1013_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1013_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1013_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1013_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1013_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1013_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1013_foch_08.jpg" alt="" /></div></div></section>
+<section class="day" id="d-2026-10-14"><h2>📅 2026-10-14（周三）</h2><div class="post"><h3>帖子 1｜作者：Ms. Nicole Foch（16:17）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/1014_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_08.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_09.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_10.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_11.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_12.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_13.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_14.jpg" alt="" /><img loading="lazy" src="photos/1014_foch_15.jpg" alt="" /></div></div>
+<div class="post"><h3>帖子 2｜作者：Mrs. Ellis Adami（16:04）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>今天早上我们一到学校，就收到了 Dr Locke 的消息。她花园里发生了一件奇怪又神奇的事情！送完孩子们不久，Dr Locke 就来到教室，带着 JK 小朋友们去了她的花园。当我们到达那里时，简直不敢相信自己的眼睛——南瓜在她的花园里到处冒了出来！Dr Locke 邀请 JK 们每人挑选一个南瓜来涂色装饰。之后，我们一边吃饼干、喝热可可，一边听了一个叫《It&#x27;s Pumpkin Day, Mouse!》的故事。JK 们很喜欢和 Dr Locke 在一起的时光，我们带着大大的笑容和暖暖的、饱饱的肚子离开了她的花园！🎃🎨☕🍪</p>
+<p>今天下午，我们又回到了户外进行故事时间，读了一本叫《Neurology: Little Doctors Children&#x27;s Book》的书。我们学到我们的大脑非常神奇，它帮助我们移动、看、尝、听和闻。之后，我们让小朋友们探索户外空间，然后回到一起，分享一件他们的大脑帮助他们做到的事情！一位小朋友分享说他的大脑帮助他跳了起来，另一位小朋友分享说她的大脑帮助她跑得非常快，还找树叶。感谢 Tara 为我们的探究课题分享了这本书。🧠</p>
+<p>最后，我们以一节 SEL 课结束了这一天，主题是我们的双手能做的各种有趣事情。在读完一个叫《Hands are Not For Hitting》的故事后，我们集思广益，想出了很多可以用双手做的事情（比如画画、打招呼、搭积木、自己穿衣服）。这是一个很好的提醒：我们的双手是用来帮助、创造和互相关爱的。🖐️👏🤝</p>
+<p>非常感谢我们的每日领袖 Jerry！他的名字有 5 个字母、2 个音节。</p>
+<p>Literacy Night 就在明天（6:00–7:00 p.m.）。学生可以在我们 JK 教室等候，而家长们则在 Robert Rourke Assembly Hall 参加一场简短的、以读写为主题的信息分享会。之后全家人在教室里集合，一起参加活动、阅读、喝牛奶吃饼干。学生们欢迎穿睡衣来参加 Literacy Night！如果您计划明晚来参加，请在这里 RSVP：
+https://forms.cloud.microsoft/pages/responsepage.aspx?id=yjasrs_a-UOvTBYuFCbQLVMwZvFwBaRArx8TqfdwZd9URDRSRkwxUVZRWjZPTksxQlNXMEdHQVg1Ui4u&amp;route=shorturl
+希望明天能见到您！</p>
+<p>本周着装及日程须知：</p>
+<p>周四
+体育校服
+· 🤸 体操课第 4 节，在 Gymalaya
+· 🌟 每日领袖：Preston
+· 📖🍪 Literacy Night – 6:00pm–7:00pm</p>
+<p>周五
+第一次正式校服
+· 🌟 每日领袖：Elsie</p>
+<p>诚挚问候，
+Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《It&#x27;s Pumpkin Day, Mouse!》在线朗读（YouTube）：https://www.youtube.com/watch?v=e2ONgo5uddI；《Hands Are Not for Hitting》（Martine Agassi 著）在线朗读（YouTube）：https://www.youtube.com/watch?v=KmvAGhqzXLQ；《Neurology: Little Doctors Children&#x27;s Book》——没找到合适的在线朗读版</p><p class="note">（本帖无照片）</p></div></section>
+<section class="day" id="d-2026-10-15"><h2>📅 2026-10-15（周四）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:13）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>今天早上，我们读了一个叫《It&#x27;s Okay to be Different》的故事。我们注意到书里的每个人长得都不一样，也注意到我们每个人都有一些让自己成为自己的特质。长相不是只有一种样子！我们传了一面镜子，每位小朋友都分享了一件自己喜欢的、关于自己外貌的、让自己与众不同的地方。之后，我们画了十月的自画像。🖍️</p>
+<p>今天下午，我们上了第 4 节体操课，JK 小朋友们走了平衡木、翻了跟头，还试着用脚尖去碰不同的单杠。🤸</p>
+<p>今天，每位学生的个人照片套餐已经放进孩子的联络袋带回家了。我们的班级合影将在 11 月 17 日拍摄，这一天也是个人照片重拍的日子。如果您想让孩子重拍照片，请在 10 月 27 日之前把原来的照片套餐退回。谢谢！📸</p>
+<p>今晚是 Literacy Night，6:00pm 开始。学生们可以直接送到教室，家长们则去 Robert Rourke Assembly Hall 听一场分享会。在这场简短的分享会之后，您会来到教室，和我们一起玩一些听力游戏，然后一边喝牛奶吃饼干、一边陪孩子阅读。欢迎学生们穿睡衣来，并带上一只最喜欢的毛绒玩具。📖🍪🥛</p>
+<p>本周着装及日程须知：</p>
+<p>周五
+第一次正式校服
+· 🌟 每日领袖：Elsie</p>
+<p>今晚见！
+Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《It&#x27;s Okay to be Different》（Todd Parr 著）在线朗读（YouTube，作者本人朗读）：https://www.youtube.com/watch?v=sl5U2Z0oQok</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:26）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/1015_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_08.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_09.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_10.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_11.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_12.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_13.jpg" alt="" /><img loading="lazy" src="photos/1015_foch_14.jpg" alt="" /></div></div></section>
+<section class="day" id="d-2026-10-16"><h2>📅 2026-10-16（周五）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:08）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>感谢所有能来参加 Literacy Night 的家庭。每次看到孩子们和家长们一起享受识字活动，我们都觉得特别温馨。希望那个晚上让大家对我们在 JK 的早期识字教学方式有了一个大致的了解——在这里，培养良好的口语表达能力是未来阅读和写作的重要基础。📖💬</p>
+<p>数学家庭学习</p>
+<p>今天，我们继续用故事《A Warm, Cozy Nest》学习 Number Sense（数感）数学单元。在目前这个学习阶段，我们正在通过数物体集合来探索早期数概念，并熟悉 1 到 5 的数字。小朋友们受邀以这个故事为灵感制作自己的小书，还玩了一个叫&quot;Nests and Numbers&quot;（鸟巢和数字）的趣味游戏。您会在孩子的联络袋里找到这个游戏的说明和数字卡片，如果您愿意，可以和孩子一起在家里试着玩一玩。🔢</p>
+<p>每日领袖</p>
+<p>感谢过去两天的每日领袖——Preston 和 Elsie。我们注意到 Preston 的名字比 Elsie 的名字长，但两个名字都有两个音节。</p>
+<p>下周，10 月 22 日，我们将开始第二轮每日领袖，我们的 All About Me（关于我）展示也将开始。请参考上个月发回家的那封信——它也可以在我们的 Edsby 图书馆里找到，展示模板也在那里。我们很期待 JK 小朋友们的第一次展示。💁</p>
+<p>独立穿衣👚🧤🧥</p>
+<p>随着天气变冷，我们提醒自己：很快 JK 小朋友们就会穿着冬衣、甚至滑雪服来上学了！在幼儿园，我们非常重视帮助孩子们在日常习惯中培养独立性，包括出门前的准备工作。</p>
+<p>这个月，我们鼓励您在家里抽一点时间，陪孩子练习独立穿户外装备。尤其是练习穿上外套并拉上拉链、戴上手套（或连指手套），在我们向寒冷的月份过渡时都会特别有帮助。</p>
+<p>这些小任务需要时间和耐心，但每一次练习的机会都能帮助孩子建立自信和独立性。JK 是在家里和学校培养这些技能的黄金时期，感谢您的支持！🙂</p>
+<p>下周预告：着装及日程须知</p>
+<p>周一
+体育校服
+· 🌟每日领袖：William</p>
+<p>周二
+正式校服（First Dress Uniform）
+· 🌟每日领袖：Roman</p>
+<p>周三
+体育校服
+· 🍂☀️☔🌲Take Me Outside Day：我们将在上午到户外度过，以庆祝 Take Me Outside Day——一个全国性的户外学习庆祝日。所有小学部班级都会轮流体验一连串趣味户外活动。请确保您的孩子穿着适合天气的衣服。
+· 🌟每日领袖：Eason</p>
+<p>周四
+体育校服
+· 🤸第 5 节体操课（在 Gymalaya）
+· 每日领袖 All About Me 展示开始。更多信息请见 Edsby 图书馆，或给我们留言
+· 🌟每日领袖：Anoosheh</p>
+<p>周五
+体育校服
+· 🚜前往 Blue and Silver Farm 的实地考察：我们很期待这次重新安排的、首次前往 Blue and Silver Farm 的旅行。
+· 🌟每日领袖：Florence</p>
+<p>祝您周末愉快！</p>
+<p>此致，</p>
+<p>Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：《A Warm, Cozy Nest》（Mathology 数学绘本系列，Lalie Harcourt &amp; Ricki Wortzman 著，Pearson 出版）——没找到合适的在线朗读版。
+📷 照片：无（该帖无照片）</p><p class="note">（本帖无照片）</p></div><div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:44）</h3><p>（纯照片帖，无文字）</p><div class="photos"><img loading="lazy" src="photos/1016_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_08.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_09.jpg" alt="" /><img loading="lazy" src="photos/1016_foch_10.jpg" alt="" /></div></div></section>
+<section class="day" id="d-2026-10-19"><h2>📅 2026-10-19（周一）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（16:16）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>这周一开始就是这么好的天气！☀️🍂</p>
+<p>今天，我们早上从 Kinder Meeting（幼儿园晨会）开始，在 Phonemic Awareness（音素意识）课上介绍了几个新技能。接下来三周，我们将探索押韵词对、听单词的首音（这一周我们重点练 m、p 和 n 三个字母），以及把两个小词拼成一个复合词（比如 in + side = inside）。</p>
+<p>今天的每日领袖是 William——他的名字有 7 个字母、3 个音节！⭐</p>
+<p>周五，我们的写作课程引入了 &quot;School Books&quot;（学校练习本）！在 JK 阶段，我们重点培养基础写作技能，包括正确的握笔姿势、用心涂色，以及开始写数字和大写字母。JK 小朋友们有了一本属于自己的本子，特别自豪！我们分成小组，完成了第一页。📝</p>
+<p>温馨提醒：All About Me（关于我）展示将于本周四开始！每个孩子会在自己的每日领袖日上，向全班分享他们的那一页。比如，本周四轮到 Anoosheh，接着周五是 Florence。请和孩子一起，为他们的下一个每日领袖日准备好 All About Me 页面。有很多种方式可以做成孩子自己的风格：可以在电脑上完成并发邮件给我们，也可以打印照片贴上去，还可以请孩子自己画画。我们很期待了解每一位 JK 小朋友，以及让他们与众不同的那些特别之处！🌈</p>
+<p>明天早上，JK 的 Speech and Language（语言）筛查将由 Aurora Speech Clinic（Aurora 言语诊所）主持。每项评估约 10 分钟。诊所会把结果带回家给您。💬</p>
+<p>本周着装及日程须知：</p>
+<p>周二
+正式校服（First Dress Uniform）
+· Aurora Speech Clinic 的 JK 言语筛查
+· 🌟每日领袖：Roman</p>
+<p>周三
+体育校服
+· 🍂☀️☔🌲Take Me Outside Day：我们将在上午到户外度过，以庆祝 Take Me Outside Day——一个全国性的户外学习庆祝日。所有小学部班级都会轮流体验一连串趣味户外活动。请确保您的孩子穿着适合天气的衣服！
+· 🌟每日领袖：Eason</p>
+<p>周四
+体育校服
+· 🤸第 5 节体操课（在 Gymalaya）
+· 每日领袖 All About Me 展示开始。更多信息请见 Edsby 图书馆，或给我们留言
+· 🌟每日领袖：Anoosheh</p>
+<p>周五
+体育校服
+· 🚜前往 Blue and Silver Farm 的实地考察：我们很期待这次重新安排的、首次前往 Blue and Silver Farm 的旅行。
+🌟每日领袖：Florence</p>
+<p>祝您有个阳光明媚的夜晚！</p>
+<p>此致，</p>
+<p>Mrs Adami 和 Mrs Foch</p>
+<p>📖 今日绘本：该帖未提到今日绘本。
+📷 照片：无（该帖无照片）</p><p class="note">（本帖无照片）</p></div>
+<div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:28）</h3><p>⚠️ 暂未获取：该帖的通知链接已失效（打开跳转到 Edsby 登录页，需要登录才能查看），本次抓不到正文和照片。据抓取时观察到的帖子信息，帖子共有 10 个照片附件（文件名含 20261019_085634.jpg、20261019_130342.jpg、20261019_132512.jpg、20261019_132944.jpg、20261019_134752.jpg、20261019_145636.jpg、三个 FullSizeRender_*.jpg、IMG_6935.jpeg），但附件内容未取到。登录需要圈圈在手机上点确认（Google 登录向 Ever Li 账号的手机推送确认码 &#x27;54&#x27;），本次自动运行无法完成，需她本人确认后再补抓。
+📷 照片：10 张照片暂未获取（待圈圈确认登录后补充）。</p><p class="note">（本帖无照片）</p></div></section>
+<section class="day" id="d-2026-10-20"><h2>📅 2026-10-20（周二）</h2><div class="post"><h3>帖子 1｜作者：Mrs. Ellis Adami（15:45）全文翻译</h3><p>亲爱的 JK 家长们，</p>
+<p>Aurora Speech Clinic（奥罗拉言语诊所）今天早上完成了言语和语言筛查。筛查结果已装进您孩子的 communication bag（家校联系袋）带回家。筛查结果是对孩子沟通能力发展情况的概览。言语治疗师会指出，孩子各项能力看起来是否在该年龄段的预期范围内发展，或者是否有某些方面可能需要通过更全面的评估来进一步探索。我们 PC（Pickering College）有好几位学生在和 Aurora Speech Clinic 合作，我们见证了他们出色的工作，也看到了孩子们在他们的支持下取得的积极进步。如果您孩子的筛查结果显示进一步跟进可能有帮助，我们鼓励您联系该诊所。如果您想聊聊孩子的结果，我也随时可以交流。我们非常乐意在您探索下一步的过程中为您提供支持！</p>
+<p>今天下午，我们去户外收集天然材料，并用它们搭建了逐渐变长的数线（到 5 的 growing number lines）。我们还去了图书馆，每个孩子都选了一本书带回我们的班级图书角。今天，JK 小朋友们见到了他们的新法语老师 Mme Bonfield（邦菲尔德老师）！我们很期待继续跟她学习法语！</p>
+<p>明天就是 Take Me Outside Day（走出户外日）了！请确保您的孩子穿着适合天气的衣服，在秋日的阳光里享受一上午的户外活动。</p>
+<p>本周穿什么、注意事项：</p>
+<p>周三</p>
+<p>体育课制服</p>
+<ul><li>🍂☀️☔🌲Take Me Outside Day（走出户外日）：我们将在户外度过一上午，庆祝 Take Me Outside Day——这是一个全国性的户外学习庆祝日。所有 Junior School 的班级都会轮流参加一系列有趣的户外活动。请确保您的孩子穿着适合天气的衣服！</li></ul>
+<ul><li>🌟每日领袖：Eason</li></ul>
+<p>周四</p>
+<p>体育课制服</p>
+<ul><li>🤸‍♀️🤸‍♂️体操课第 5 课，地点 Gymalaya</li></ul>
+<ul><li>每日领袖 All About Me（关于我）展示开始。孩子将在自己的每日领袖日进行展示。</li></ul>
+<ul><li>🌟每日领袖：Anoosheh</li></ul>
+<p>周五</p>
+<p>体育课制服</p>
+<ul><li>🚜Blue and Silver Farm（蓝银农场）实地考察：我们很期待改期后的第一次 Blue and Silver Farm 之行。</li></ul>
+<ul><li>🌟每日领袖：Florence</li></ul>
+<p>亲切地，</p>
+<p>Adami 老师和 Foch 老师</p><p class="note">（本帖无照片）</p></div><div class="post"><h3>帖子 2｜作者：Ms. Nicole Foch（16:11）</h3><p>（纯照片帖，无文字）</p>
+<p>---
+📖 今日绘本：今天正文未提到具体绘本名称（只说每个孩子在图书馆各选了一本书带回班级图书角），没有指定书名可查在线朗读版。</p><div class="photos"><img loading="lazy" src="photos/1020_foch_01.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_02.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_03.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_04.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_05.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_06.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_07.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_08.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_09.jpg" alt="" /><img loading="lazy" src="photos/1020_foch_10.jpg" alt="" /></div></div></section>
+<div class="section"><h2>🏃 Terry Fox 慈善跑捐款</h2><div class="btns"><a class="d-blue" href="https://schools.terryfox.ca/135386/team/78627" target="_blank" rel="noopener">Blue 捐款</a><a class="d-gold" href="https://schools.terryfox.ca/135386/team/78629" target="_blank" rel="noopener">Gold 捐款</a><a class="d-silver" href="https://schools.terryfox.ca/135386/team/78628" target="_blank" rel="noopener">Silver 捐款</a><a class="d-red" href="https://schools.terryfox.ca/135386/team/78626" target="_blank" rel="noopener">Red 捐款</a></div></div>
+<div class="section read"><h2>📚 绘本朗读</h2><a href="https://www.youtube.com/watch?v=P1qHKfUJG6c" target="_blank" rel="noopener">📖 《The Colour Monster》</a><a href="https://www.youtube.com/watch?v=kzQOdEAIH5E" target="_blank" rel="noopener">📖 《The Listening Walk》</a><a href="https://www.youtube.com/watch?v=v18UZonJDoE" target="_blank" rel="noopener">📖 《Germs are Not For Sharing》</a><a href="https://www.youtube.com/watch?v=4KHdkfBGogY" target="_blank" rel="noopener">📖 《Giraffes Can&#x27;t Dance》</a><a href="https://www.youtube.com/watch?v=xtrUHkACvO4" target="_blank" rel="noopener">📖 《Terry Fox - I Had a Dream》</a><a href="https://www.youtube.com/watch?v=t4Hm4sBotuI" target="_blank" rel="noopener">📖 《Terry Fox and Me》read aloud</a><a href="https://www.youtube.com/watch?v=qCfDisx64nA" target="_blank" rel="noopener">📖 《Today is Orange Shirt Day》(Phyllis Webstad 朗读)</a><a href="https://www.youtube.com/watch?v=N1yICqoAQgs" target="_blank" rel="noopener">📖 《With Our Orange Hearts》(Melody Crowe 朗读)</a><a href="https://www.youtube.com/watch?v=ZnAT4LGkfKo" target="_blank" rel="noopener">📖 《The Seven Sacred Teaching Animals》朗读</a><a href="https://www.teachertube.com/videos/read-aloud-when-i-feel-scared-read-by-mr-jones-the-steam-teacher-431050" target="_blank" rel="noopener">📖 《When I Feel Scared》(Mr. Jones 朗读，TeacherTube)</a><a href="https://www.youtube.com/watch?v=axyhzdCCGCI" target="_blank" rel="noopener">📖 《When I Feel Angry》(Hello!Lucky 朗读，YouTube)</a></div>
+<footer>Rivers 学校日报 · 每天自动更新</footer>
+</div>
+</body>
+</html>
